@@ -15,6 +15,15 @@
   "main": "dist/es5/rrule.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
+  "exports": {
+    "import": {
+      "types": "dist/esm/index.d.ts",
+      "default": "dist/esm/index.js"
+    },
+    "require": {
+      "default": "dist/es5/rrule.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/jakubroztocil/rrule.git"
